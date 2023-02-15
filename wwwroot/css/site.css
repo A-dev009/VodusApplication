@@ -1,0 +1,374 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+
+legend {
+    font-size: 1em;
+}
+
+.inlineLegend {
+    width: 290px;
+    float: left;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+#sidebarCollapse {
+    display: none;
+    background: #005d95;
+    transition: all 0.3s;
+}
+
+    #sidebarCollapse:hover {
+        background: #156fa5;
+    }
+
+    #sidebarCollapse:active {
+        background: #126ea7;
+    }
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    color: #fff;
+    transition: all 0.3s !important;
+    background-color: #213e7e;
+}
+
+    #sidebar.active {
+        margin-left: -250px;
+    }
+
+    #sidebar .sidebar-header {
+    }
+
+    #sidebar ul.components {
+        padding: 20px 0;
+    }
+
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+
+    #sidebar ul li a {
+        padding: 8px 20px;
+        font-size: 1em;
+        display: block;
+        color: whitesmoke;
+        transition: all 0.3s !important;
+    }
+
+        #sidebar ul li a:hover {
+            color: #fff;
+            background: #156fa5;
+        }
+
+    #sidebar ul li.active > a,
+    a[aria-expanded="true"] {
+        color: #fff;
+        background: #156fa5;
+    }
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+    ul.CTAs a {
+        text-align: center;
+        font-size: 0.9em !important;
+        display: block;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 992px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+        #sidebar.active {
+            margin-left: 0;
+        }
+
+    #sidebarCollapse {
+        display: block;
+    }
+}
+
+.field-validation-error {
+    color: red;
+}
+
+.input-validation-error {
+    background: pink;
+    border: 1px solid red;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.grecaptcha-badge {
+    bottom: 60px !important;
+}
+
+.login-page-logo img {
+    width: 150px;
+}
+
+.login-page-logo {
+    background-color: #fffdfd;
+    border-bottom: 1px #f3f3f3 solid;
+}
+
+.eye-icon {
+    position: relative
+}
+
+
+
+label[class = "error"] {
+    font-weight: normal !important;
+    color: red;
+}
+
+.section-heading {
+    margin: 0;
+    padding: 5px 3px;
+    font-size: 18px;
+    background: #005d95;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.formclass .required:after {
+    content: " *" / "";
+    color: red;
+    font-weight: 500;
+    speak: none;
+}
+
+.rememberMeClass {
+    padding-left: 5%;
+}
+
+
+.logo-image {
+    background: #fffdfd;
+    text-align: center;
+    border-bottom: 1px #f3f3f3 solid;
+}
+
+    .logo-image .navbar-brand {
+        padding: 4px;
+    }
+
+    .logo-image img {
+        width: 152px;
+    }
+
+/*----------*/
+
+
+.container-div {
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    background: #fff;
+    margin-bottom: 5rem;
+}
+
+div .navbar-light {
+    background-color: #fffdfd;
+    border-bottom: 1px #f3f3f3 solid;
+    height: 70px
+}
+
+div .sidebar-light-primary {
+    background-color: #005d95;
+}
+
+.page-header {
+    font-size: 25px;
+}
+
+.page-subheader {
+    font-size: 15px;
+    padding-bottom: 11px;
+}
+
+.layoutPageLogo{
+    width:152px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #005d95;
+    border-color: #005d95 #005d95 #ffffff;
+}
+
+.nav-tabs .nav-link {
+    background: #383838;
+    color: #fff;
+    border-color: #383838 #383838 #ffffff;
+}
+
+.disabledInput {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+
+.imageHeightWidth{
+    height:100px;
+    width:120px;
+}
+.data-container {
+    overflow:auto;
+
+}
+    .data-container table td {
+       font-size:13px;
+       padding:5px;
+    }
+
+.data-container table {
+    width:1000px;
+}
+
+.odd:first-child {
+    display: none;
+}
